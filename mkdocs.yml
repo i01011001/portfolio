@@ -2,12 +2,11 @@ site_name: Yeti Doc
 site_url: http://0.0.0.0:8888
 theme:
   name: material
-  logo: ./assets/YETI/yeti_white_icon.png
-  favicon: ./assets/YETI/favicon.ico
+  logo: assets/YETI/yeti_white_icon.png
+  favicon: assets/YETI/favicon.ico
   palette:
     scheme: slate
-    primary: blue 
-
+    primary: blue
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -16,10 +15,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
